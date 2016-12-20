@@ -1,10 +1,18 @@
 package lab12;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
 import java.text.DecimalFormat;
-//Janet Leu
+//Colby Underhillu
 
 public class CoffeeMachine extends JFrame implements ActionListener
     {
@@ -59,6 +67,7 @@ public class CoffeeMachine extends JFrame implements ActionListener
         setSize(500,300);
         setLayout(new GridLayout(7,2));
         setTitle("Coffee Machine");
+        
         }
     public void actionPerformed(ActionEvent ae)
         {
